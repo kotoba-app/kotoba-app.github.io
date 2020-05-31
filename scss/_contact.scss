@@ -44,6 +44,38 @@ section.contact {
                     }
                 }
             }
+            &.social-github {
+                a {
+                    background-color: $brand-github;
+                    &:hover {
+                        background-color: darken($brand-github, 5%);
+                    }
+                }
+            }
+            &.social-linkedin {
+                a {
+                    background-color: $brand-linkedin;
+                    &:hover {
+                        background-color: darken($brand-linkedin, 5%);
+                    }
+                }
+            }
+            &.social-email {
+                a {
+                    background-color: $email;
+                    &:hover {
+                        background-color: darken($email, 5%);
+                    }
+                }
+            }
+            &.social-download {
+                a {
+                    background-color: $press-kit;
+                    &:hover {
+                        background-color: darken($press-kit, 5%);
+                    }
+                }
+            }
         }
     }
 }
